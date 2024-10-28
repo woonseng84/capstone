@@ -7,7 +7,7 @@ def check_password():
         if hmac.compare_digest(st.session_state["password"], st.secrets["password"]):
             st.session_state["password_correct"] = True
             del st.session_state["password"]
-        else
+        else:
             st.session_state["password_correct"] = False
 
     if st.session_state.get("password_correct", False):
