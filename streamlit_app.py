@@ -1,10 +1,15 @@
 import altair as alt
 import pandas as pd
 import streamlit as st
+from utility import check_password
 
 # Show the page title and description.
 st.set_page_config(page_title="Graduate Employment Survey")
 st.title("Graduate Employment Survey")
+
+if not check_password():
+    st.stop()
+
 st.write(
     """
     This app visualizes data from "Graduate Employment Survey - NTU, NUS, SIT, SMU, SUSS & SUTD".
