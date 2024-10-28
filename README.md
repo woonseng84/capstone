@@ -15,5 +15,5 @@ A simple Streamlit app showing movie data from [The Movie Database (TMDB)](https
 2. Run the app
 
    ```
-   $ streamlit run streamlit_app.py
+   $ streamlit run Graduate_Employment_Survey.py
    ```

@@ -3,8 +3,8 @@ import pandas as pd
 import streamlit as st
 
 # Show the page title and description.
-st.set_page_config(page_title="Movies dataset", page_icon="🎬")
-st.title("🎬 Movies dataset")
+st.set_page_config(page_title="Graduate Employment Survey")
+st.title("Garduate Employment Survey")
 st.write(
     """
     This app visualizes data from "Graduate Employment Survey - NTU, NUS, SIT, SMU, SUSS & SUTD".
