@@ -7,7 +7,7 @@ import tiktoken
 load_dotenv('.env')
 
 # Pass the API Key to the OpenAI Client
-#client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+#client = OpenAI(api_key=os.getenv('OPENAI_API_KEY')) //updated
 client = OpenAI(
     api_key = "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",
 )
