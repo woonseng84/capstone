@@ -4,7 +4,7 @@ import streamlit as st
 
 # Show the page title and description.
 st.set_page_config(page_title="Graduate Employment Survey")
-st.title("Garduate Employment Survey")
+st.title("Graduate Employment Survey")
 st.write(
     """
     This app visualizes data from "Graduate Employment Survey - NTU, NUS, SIT, SMU, SUSS & SUTD".
