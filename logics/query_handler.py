@@ -21,7 +21,7 @@ def identify_category_and_courses(user_message):
     The customer service query will be enclosed in
     the pair of {delimiter}.
 
-    Decide if the query is relevant to any specific degree
+    Decide if the query is relevant to any specific degree \
     in the list below.
 
     If there are any relevant degree found, output everything about the degree.
@@ -77,7 +77,8 @@ def generate_response_based_on_course_details(user_message, product_details):
     generate the answer for the customer's query.
     You must only rely on the facts or information in the degree information.
     Your response should be as detail as possible and \
-    include information that is useful for customer to better understand the course.
+    include information that is useful for customer to better understand the course. \
+    Include the basic monthly mean information if possible.
 
     Step 3:{delimiter}: Answer the customer in a friendly tone.
     Make sure the statements are factually accurate.
